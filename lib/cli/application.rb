@@ -1,9 +1,8 @@
 require 'thor'
-
 module Redbubble::Cli
     class Application < Thor
 
-      description = "Start the " + "Redbubble".red + " Works Parser.\n"
+      description = "Start the Redbubble Works Parser.\n"
       description << "The input can be an XML file or a directory of XML files.\n"
       description << "The output directory will be created if it doesn't exist.\n\n"
       description << "If there are multiple XML files to be parsed, the output directory will create \n".yellow
