@@ -1,3 +1,4 @@
+require 'colorize'
 module Redbubble::Utils
 
 		# Replace whitespace with hyphens and remove

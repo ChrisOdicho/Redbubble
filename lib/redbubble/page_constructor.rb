@@ -47,7 +47,6 @@ module Redbubble
 
 		# A function that accepts make or model as strings or arrays
 		# Returns modified HTML for index, make, and model pages
-		# 
 		def generate_html(make=nil, model=nil)
 			begin
 				output = nil

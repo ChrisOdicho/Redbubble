@@ -1,5 +1,4 @@
 require 'nokogiri'
-require 'colorize'
 module Redbubble
 	module Parser
 

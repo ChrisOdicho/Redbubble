@@ -1,6 +1,4 @@
-# A Work consists of three images (small, medium, large), a
-# camera make, and a camera model.
-
+# A work consists of an ID, three Images, and a Camera
 module Redbubble
 	class Work
 		attr_accessor :id, :images, :camera
