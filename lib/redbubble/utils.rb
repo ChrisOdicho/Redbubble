@@ -3,17 +3,17 @@ module Redbubble::Utils
 		# Replace whitespace with hyphens and remove
 		# any non-alphanumeric characters from a string
 		def self.slug(text)
-			text.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+			text.to_s.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 		end
 
-		def self.nil_or_empty?(object)
+		def self.empty?(object)
 			object.nil? || object.empty?
 		end
 
 		def self.title(make=nil, model=nil)
 			page_title = "Redbubble Works Browser"
-			page_title += " > #{make}" unless nil_or_empty?(make)
-			page_title += " > #{model}" unless nil_or_empty?(model)
+			page_title += " > #{make}" unless empty?(make)
+			page_title += " > #{model}" unless empty?(model)
 			page_title
 		end
 

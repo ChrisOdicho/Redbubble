@@ -1,4 +1,6 @@
 require 'redbubble'
+require 'simplecov'
+SimpleCov.start
 RSpec.configure do |config|
 	config.before :each do
 		image_small = Redbubble::Image.new(:size => "small", :url => "http://example.com")
@@ -12,6 +14,7 @@ RSpec.configure do |config|
 		@invalid_file = "spec/fixtures/corrupted-works.xml"
 		@output_directory = "spec/output"
 	end
+
 	config.after :each do
 		FileUtils.rm_rf Dir.glob("#{@output_directory}")
 	end

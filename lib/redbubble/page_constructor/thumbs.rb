@@ -15,11 +15,11 @@ module Redbubble
 				end
 				thumbs <<	"</section>"
 				thumbs = Nokogiri::HTML(thumbs).at('body').inner_html
-
+				thumbs
 			end
 
 			def thumb_tag
-				thumb_tag = "<section id='thumbnails'>"
+				thumb = "<section id='thumbnails'>"
 			end
 	end
 end

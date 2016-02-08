@@ -26,7 +26,7 @@ module Redbubble
 		# Make and model just need to be strings with any character
 		def valid?
 			[@id, @images, @camera].each {|param| 
-				return false if Utils.nil_or_empty?(param)
+				return false if Utils.empty?(param)
 			}
 			return false unless @images.instance_of?(Array) && 
 				@images.length == 3 && valid_image_collection?(@images) &&

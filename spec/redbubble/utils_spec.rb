@@ -11,7 +11,7 @@ describe Redbubble::Utils do
 	describe ".nil_or_empty" do
 		it "returns true if object is nil or empty" do
 			object = ""
-			expect(Redbubble::Utils.nil_or_empty?(object)).to eq(true)
+			expect(Redbubble::Utils.empty?(object)).to eq(true)
 		end
 	end
 

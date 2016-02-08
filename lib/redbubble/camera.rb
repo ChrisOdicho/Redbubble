@@ -16,7 +16,7 @@ module Redbubble
 		end
 
 		def self.models(make=nil)
-			if Utils.nil_or_empty?(make)
+			if Utils.empty?(make)
 				@@models = @@cameras.uniq_by {|c| c.model}.map(&:model)
 			else
 				@@models = @@cameras.find_all { |c| c.make == make}.map(&:model)

@@ -1,8 +1,6 @@
 # Redbubble
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/redbubble`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Redbubble coding test - XML / HTML Parser
 
 ## Installation
 
@@ -14,14 +12,20 @@ Clone the repo
 
 Navigate to the redbubble folder and run
 
-		$ bin/redbubble parse -i <input files> -o <output directory>
+		$ bin/redbubble parse -i <input file> -o <output directory>
 
 Input files can be from a directory or a single XML file. If there are multiple XML files, the parser will create subdirectories within the output directory named after each XML file.
+
+For example, running
+
+		$ bin/redbubble parse -i spec/fixtures -o output
+
+Will parse both works.xml and corrupted-works.xml into output/works and output/corrupted-works.
 
 You can also get more information by running
 
 		$ bin/redbubble help parse
-		
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

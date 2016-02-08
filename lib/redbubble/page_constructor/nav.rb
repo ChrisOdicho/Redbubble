@@ -11,7 +11,7 @@ module Redbubble
 
 		def generate
 			nav = nav_tag
-			if Utils.nil_or_empty?(@models)
+			if Utils.empty?(@models)
 				@makes.each { |make| nav << link_to(make) }
 			elsif @models.instance_of?(Array)
 				@models.each { |model| nav << link_to(model) }

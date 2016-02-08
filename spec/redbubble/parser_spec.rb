@@ -13,11 +13,10 @@ describe Redbubble::Parser do
 		end
 
 		context "with invalid filetype" do
-			before :each do
-				@input_file = "coding-test/output-template.html"
-			end
 			it "rejects the input file" do
-				expect{ Redbubble::Parser.parse_works(@input_file) }.to raise_error(ArgumentError)
+
+				invalid_file = "coding-test/output-template.html"
+				expect{ Redbubble::Parser.parse_works(invalid_file) }.to raise_error(ArgumentError)
 			end
 		end
 

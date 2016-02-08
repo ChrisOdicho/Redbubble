@@ -1,43 +1,21 @@
 [0;32;49m12 Works parsed from spec/fixtures/works.xml[0m
 [0;31;49mSkipped 2 Works (IDs: ["26583", "867035"])[0m
-Successfully generated NIKON CORPORATION
-Successfully generated Canon
-Successfully generated FUJIFILM
-Successfully generated LEICA
-Successfully generated FUJI PHOTO FILM CO., LTD.
-Successfully generated Panasonic
-[0;32;49m12 Works parsed from spec/fixtures/works.xml[0m
-[0;31;49mSkipped 2 Works (IDs: ["26583", "867035"])[0m
-Successfully generated NIKON CORPORATION
-Successfully generated Canon
-Successfully generated Canon
-Successfully generated FUJIFILM
-Successfully generated LEICA
-Successfully generated FUJI PHOTO FILM CO., LTD.
-Successfully generated Panasonic
-[0;32;49m12 Works parsed from spec/fixtures/works.xml[0m
-[0;31;49mSkipped 2 Works (IDs: ["26583", "867035"])[0m
-[0;32;49m7 Works parsed from spec/fixtures/corrupted-works.xml[0m
-[0;31;49mSkipped 4 Works (IDs: ["31820", "26583", "3745978", "867035"])[0m
-Successfully generated NIKON CORPORATION
-Successfully generated Canon
-Successfully generated FUJIFILM
-Successfully generated LEICA
-Successfully generated FUJI PHOTO FILM CO., LTD.
-Successfully generated Panasonic
-Successfully generated NIKON CORPORATION
-Successfully generated Canon
-Successfully generated Canon
-Successfully generated FUJIFILM
-Successfully generated LEICA
-Successfully generated LEICA
-Successfully generated FUJI PHOTO FILM CO., LTD.
-Successfully generated Panasonic
-[0;33;49m15 HTML pages in spec/output/corrupted-works[0m
-
-[0;32;49m12 Works parsed from spec/fixtures/works.xml[0m
-[0;31;49mSkipped 2 Works (IDs: ["26583", "867035"])[0m
-Successfully generated NIKON CORPORATION
-[0;32;49m12 Works parsed from spec/fixtures/works.xml[0m
-[0;31;49mSkipped 2 Works (IDs: ["26583", "867035"])[0m
-[0;31;49mError: Camera not found! (KODAK)[0m
+Generated Redbubble Works Browser
+Generated Redbubble Works Browser > NIKON CORPORATION
+Generated Redbubble Works Browser > Canon
+Generated Redbubble Works Browser > FUJIFILM
+Generated Redbubble Works Browser > LEICA
+Generated Redbubble Works Browser > FUJI PHOTO FILM CO., LTD.
+Generated Redbubble Works Browser > Panasonic
+Generated Redbubble Works Browser > NIKON CORPORATION > NIKON D80
+Generated Redbubble Works Browser > Canon > Canon EOS 20D
+Generated Redbubble Works Browser > Canon > Canon EOS 400D DIGITAL
+Generated Redbubble Works Browser > FUJIFILM > FinePix S6500fd
+Generated Redbubble Works Browser > LEICA > D-LUX 3
+Generated Redbubble Works Browser > LEICA > D-LUX 3D-LUX 3
+Generated Redbubble Works Browser > FUJI PHOTO FILM CO., LTD. > SLP1000SE
+Generated Redbubble Works Browser > Panasonic > DMC-FZ30
+[0;33;49m15 HTML pages in 'spec/output' directory
+[0m
+Redbubble Works Parser completed.
+App Input Error: Input file missing 
