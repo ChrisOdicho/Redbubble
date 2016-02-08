@@ -2,7 +2,7 @@
 
 A simple XML to HTML parser for the Redbubble code test.
 
-## Development Env
+## Development Environment
 
 The application was developed in Ruby 2.2.3 on OSX 10.10.5
 
