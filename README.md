@@ -1,6 +1,10 @@
 # Redbubble
 
-Redbubble coding test - XML / HTML Parser
+A simple XML to HTML parser for the Redbubble code test.
+
+## Development Env
+
+The application was developed in Ruby 2.2.3 on OSX 10.10.5
 
 ## Installation
 
